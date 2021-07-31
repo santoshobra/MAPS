@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Maps - All India Logistics</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400"
+      rel="stylesheet"
+    />
+    <link href="styles/templatemo-style.css" rel="stylesheet" />
+    <style>
+      p.a {
+        font-family: "Times New Roman", Times, serif;
+        text-indent: 100px;
+        margin-bottom: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+        letter-spacing: 2px;
+      }
+      
+      ul.a li.a
+      {
+         line-height: 30px;    
+         list-style-type: circle; 
+         font:"Times New Roman", Times, serif;  
+         letter-spacing: 2px;      
+         
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      <!-- Top box -->
+      <!-- Logo & Site Name -->
+      <div class="placeholder">
+        <div
+          class="parallax-window"
+          data-parallax="scroll"
+          data-image-src="img/simple-house-01.jpg"
+        >
+          <div class="tm-header">
+            <div class="row tm-header-inner">
+              <div class="col-md-2 col-4">
+                <img
+                  src="img/company_logo.jpeg"
+                  alt="Logo"
+                  class="tm-site-logo"
+                />
+              </div>
+              <nav class="col-md-6 col-12 tm-nav">
+                <ul class="tm-nav-ul">
+                  <li class="tm-nav-li">
+                    <a href="home.html" class="tm-nav-link active">Home</a>
+                  </li>
+                  <li class="tm-nav-li">
+                    <a href="aboutus.html" class="tm-nav-link">About</a>
+                  </li>
+                  <li class="tm-nav-li">
+                    <a href="services.html" class="tm-nav-link">Services</a>
+                  </li>
+                  <li class="tm-nav-li">
+                    <a href="contactus.html" class="tm-nav-link">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <main>
+        <header class="row tm-welcome-section">
+          <h2
+            class="col-12 text-center tm-section-title"
+            style="color: #f28425"
+          >
+            Welcome to Maps
+          </h2>
+        </header>
+
+        <div align="center">
+          <p class="a">
+            MAPS ALL INDIA LOGISTICS trusted name for speedy motion, excellent
+            logistic service, incomparable disposal.
+          </p>
+          <p class="a">
+            Welcome to MAPS ALL INDIA LOGISTICS (MAPS) has gone and stabled
+            itself as an ultimate co-loading providers in courier industry in
+            India with the assurance of prolonged expertise. Within a span of
+            one year, its eminent business associates expanded its operational
+            network in different parts of India. Our Head office is located at
+            Varanasi. We have the vision to achieve complete service by round
+            the clock industry working throughout day and night taking care of
+            the precious valuables of the customers by valuing the one-to-one
+            relationship.
+          </p>
+          <p class="a">
+            Our aim is to establish leadership for incomparable quality service
+            is co-loading courier industry, beneficially not only to the premier
+            couriers of the country but we like to focus on the core element of
+            responsibility as a trustful co-loader by rendering time bound
+            service all individual the times to every our mission is to achieve
+            the success and fulfill the countrywide aspiration and to make the
+            organization a significant destination for our valued customers.
+        
+          <ul class="a">
+            <li class="a">Fast delivery</li>
+            <li class="a">Secured Service National</li>
+            <li class="a">National and International Shipping</li>
+          </ul>
+            </p>
+        </div>
+      </main>
+
+      <footer class="tm-footer text-center">
+        <p>Copyright &copy; 2021</p>
+      </footer>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // Handle click on paging links
+        $(".tm-paging-link").click(function (e) {
+          e.preventDefault();
+
+          var page = $(this).text().toLowerCase();
+          $(".tm-gallery-page").addClass("hidden");
+          $("#tm-gallery-page-" + page).removeClass("hidden");
+          $(".tm-paging-link").removeClass("active");
+          $(this).addClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
